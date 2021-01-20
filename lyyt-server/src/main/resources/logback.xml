@@ -1,0 +1,70 @@
+<configuration >
+
+    <property name="DIR" value="/data/log" />
+    <property name="LOG_NAME" value="lydsj" />
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender" >
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} - %-5level [%msg]%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="GATHER_LOG_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${DIR}/${LOG_NAME}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 			按天轮转 -->
+            <fileNamePattern>${DIR}/${LOG_NAME}.%d.log</fileNamePattern>
+            <!-- 			保存 30 天的历史记录，最大大小为 30GB -->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>8GB</totalSizeCap>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level ${LOG_NAME} - [%msg]%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STATUS_LOG_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${DIR}/${LOG_NAME}_status.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 			按天轮转 -->
+            <fileNamePattern>${DIR}/${LOG_NAME}_status.%d.log</fileNamePattern>
+            <!-- 			保存 30 天的历史记录，最大大小为 30GB -->
+            <maxHistory>7</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level ${LOG_NAME} - [%msg]%n</pattern>
+        </encoder>
+    </appender>
+
+
+
+
+
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+
+
+
+    <logger name="net.cdsunrise.hy.lyyt.service.impl.TransferServiceImpl" level="INFO" additivity="false"  >
+        <!--<appender-ref ref="STDOUT" />-->
+        <appender-ref ref="GATHER_LOG_APPENDER" />
+    </logger>
+
+    <!--<logger name="com.liuyindog.gatherlog.server.impl.StatusServiceImpl" level="INFO" additivity="false"  >
+        &lt;!&ndash;<appender-ref ref="STDOUT" />&ndash;&gt;
+        <appender-ref ref="STATUS_LOG_APPENDER" />
+    </logger>-->
+
+
+
+
+
+</configuration>

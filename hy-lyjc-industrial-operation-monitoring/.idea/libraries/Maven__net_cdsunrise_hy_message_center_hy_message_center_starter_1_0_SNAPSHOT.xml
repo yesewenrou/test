@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.cdsunrise.hy.message.center:hy-message-center-starter:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/cdsunrise/hy/message/center/hy-message-center-starter/1.0-SNAPSHOT/hy-message-center-starter-1.0-20191105.083323-7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/cdsunrise/hy/message/center/hy-message-center-starter/1.0-SNAPSHOT/hy-message-center-starter-1.0-20191105.083323-7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/cdsunrise/hy/message/center/hy-message-center-starter/1.0-SNAPSHOT/hy-message-center-starter-1.0-20191105.083323-7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

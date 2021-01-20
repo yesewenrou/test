@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "hy.news.url",
+      "type": "java.lang.String",
+      "description": "Description for hy.news.url."
+    },
+    {
+      "name": "hy.news.forward-url",
+      "type": "java.lang.String",
+      "description": "Description for hy.news.forward-url."
+    }
+  ] }

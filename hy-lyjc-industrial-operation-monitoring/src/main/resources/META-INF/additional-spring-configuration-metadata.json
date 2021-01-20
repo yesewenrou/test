@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "msm.service.address",
+      "type": "java.lang.String",
+      "description": "Description for msm.service.address."
+    },
+    {
+      "name": "lyjt.service.lyjtServerAddress",
+      "type": "java.lang.String",
+      "description": "Description for lyjt.service.lyjtServerAddress."
+    }
+  ]
+}

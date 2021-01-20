@@ -1,0 +1,17 @@
+[
+  {
+    "stationId" : "5114230079",
+    "checkinNum" : 27,
+    "statisticalDate" : "2020-05-23"
+  },
+  {
+    "stationId" : "5114230120",
+    "checkinNum" : 88,
+    "statisticalDate" : "2020-05-23"
+  },
+  {
+    "stationId" : "5114230047",
+    "checkinNum" : 17,
+    "statisticalDate" : "2020-05-23"
+  }
+]

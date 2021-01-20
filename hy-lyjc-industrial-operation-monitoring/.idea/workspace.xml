@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="888801a5-462c-440d-9bc3-d32138b2f74a" name="Default Changelist" comment="&quot;值班管理9&quot;">
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cdsunrise/hy/lyjc/industrialoperationmonitoring/usermanage/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/cdsunrise/hy/lyjc/industrialoperationmonitoring/usermanage/config/MvcConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1n2gUlrtly9ZpJIkE21Ar1dHlML" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\newDir\java\hy\hy-lyjc-industrial-operation-monitoring\doc" />
+      <recent name="E:\newDir\java\hy\hy-lyjc-industrial-operation-monitoring\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.cdsunrise.hy.lyjc.industrialoperationmonitoring.vo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndustrialOperationMonitoringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-lyjc-industrial-operation-monitoring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.cdsunrise.hy.lyjc.industrialoperationmonitoring.IndustrialOperationMonitoringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="VM_PARAMETERS" value="-Xmx2048m -Xms1024m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="888801a5-462c-440d-9bc3-d32138b2f74a" name="Default Changelist" comment="" />
+      <created>1610593618639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610593618639</updated>
+      <workItem from="1610593620243" duration="2868000" />
+      <workItem from="1610616841008" duration="12454000" />
+      <workItem from="1610702986632" duration="92616000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;值班管理3&quot;">
+      <created>1611026918423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611026918423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;值班管理4&quot;">
+      <created>1611027367969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611027367969</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;值班管理5&quot;">
+      <created>1611035054205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611035054205</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;值班管理6&quot;">
+      <created>1611036326993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611036326993</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;值班管理7&quot;">
+      <created>1611039041163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611039041163</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;值班管理8&quot;">
+      <created>1611045259415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611045259416</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;值班管理9&quot;">
+      <created>1611046205398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611046205398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;值班管理2&quot;" />
+    <MESSAGE value="&quot;值班管理3&quot;" />
+    <MESSAGE value="&quot;值班管理4&quot;" />
+    <MESSAGE value="&quot;值班管理5&quot;" />
+    <MESSAGE value="&quot;值班管理6&quot;" />
+    <MESSAGE value="&quot;值班管理7&quot;" />
+    <MESSAGE value="&quot;值班管理8&quot;" />
+    <MESSAGE value="&quot;值班管理9&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;值班管理9&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/cdsunrise/hy/lyjc/industrialoperationmonitoring/service/impl/DataResourceServiceImpl.java</url>
+          <line>316</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

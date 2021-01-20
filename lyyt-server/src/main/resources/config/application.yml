@@ -1,0 +1,557 @@
+lyyt:
+  #海康对接数据配置
+  artemisconfig:
+    host: 112.19.247.197
+    port: 446
+    app-key: 24311264
+    app-secret: uyr0n9Gr51BfSrz4piRR
+
+hy-config:
+  road-sections:
+    - road-id: 1
+      section-id: 1-1
+      road-name: 二八县道
+      mileage-count: 6671
+      road-section-describe: 七里坪到瓦屋山镇
+      longitude: 103.202919
+      latitude: 29.601001
+      begin-point-name: 高庙镇初级中学校
+      end-point-name: 头道沟
+    - road-id: 1
+      section-id: 1-2
+      road-name: 二八县道
+      mileage-count: 8086
+      road-section-describe: 七里坪到瓦屋山镇
+      longitude: 103.152532
+      latitude: 29.587875
+      begin-point-name: 头道沟
+      end-point-name: 天外天极地漂流
+    - road-id: 1
+      section-id: 1-3
+      road-name: 二八县道
+      mileage-count: 10808
+      road-section-describe: 七里坪到瓦屋山镇
+      longitude: 103.084712
+      latitude: 29.615883
+      begin-point-name: 天外天极地漂流
+      end-point-name: 瓦屋山交警中队
+    - road-id: 2
+      section-id: 2-1
+      road-name: 槽鱼滩至东岳
+      mileage-count: 7736
+      road-section-describe: 槽渔滩景区主干道
+      longitude: 103.184413
+      latitude: 29.91526
+      begin-point-name: 自雅路
+      end-point-name: 交警大队槽渔滩景区中队
+    - road-id: 2
+      section-id: 2-2
+      road-name: 槽鱼滩至东岳
+      mileage-count: 1235
+      road-section-describe: 槽渔滩景区主干道
+      longitude: 103.187871
+      latitude: 29.898567
+      begin-point-name: 交警大队槽渔滩景区中队
+      end-point-name: 槽渔滩景区
+    - road-id: 2
+      section-id: 2-3
+      road-name: 槽鱼滩至东岳
+      mileage-count: 6964
+      road-section-describe: 槽渔滩景区主干道
+      longitude: 103.200887
+      latitude: 29.865882
+      begin-point-name: 槽渔滩景区
+      end-point-name: 冯湾
+    - road-id: 2
+      section-id: 2-4
+      road-name: 槽鱼滩至东岳
+      mileage-count: 4302
+      road-section-describe: 槽渔滩景区主干道
+      longitude: 103.23524
+      latitude: 29.841206
+      begin-point-name: 冯湾
+      end-point-name: 东岳镇政府
+    - road-id: 3
+      section-id: 3-1
+      road-name: 大峨眉国际旅游西环线
+      mileage-count: 4411
+      road-section-describe: 县城到柳江古镇方向
+      longitude: 103.305191
+      latitude: 29.858012
+      begin-point-name: 大峨眉国际旅游西环线
+      end-point-name: 桅杆坪
+    - road-id: 3
+      section-id: 3-2
+      road-name: 大峨眉国际旅游西环线
+      mileage-count: 5536
+      road-section-describe: 县城到柳江古镇方向
+      longitude: 103.293378
+      latitude: 29.82274
+      begin-point-name: 桅杆坪
+      end-point-name: 牌坊坝
+    - road-id: 3
+      section-id: 3-3
+      road-name: 大峨眉国际旅游西环线
+      mileage-count: 5222
+      road-section-describe: 县城到柳江古镇方向
+      longitude: 103.26445
+      latitude: 29.777855
+      begin-point-name: 牌坊坝
+      end-point-name: 郭家山庄
+    - road-id: 3
+      section-id: 3-4
+      road-name: 大峨眉国际旅游西环线
+      mileage-count: 2228
+      road-section-describe: 县城到柳江古镇方向
+      longitude: 103.250686
+      latitude: 29.749767
+      begin-point-name: 郭家山庄
+      end-point-name: 余沟村
+    - road-id: 3
+      section-id: 3-5
+      road-name: 大峨眉国际旅游西环线
+      mileage-count: 1115
+      road-section-describe: 县城到柳江古镇方向
+      longitude: 103.247661
+      latitude: 29.741114
+      begin-point-name: 余沟村
+      end-point-name: 花溪河大桥
+    - road-id: 4
+      section-id: 4-1
+      road-name: 九盛大道一段-洪州大桥
+      mileage-count: 8488
+      road-section-describe: 周边从洪雅北进城方向
+      longitude: 103.398848
+      latitude: 29.926676
+      begin-point-name: G351
+      end-point-name: 九盛大道一段-洪州大桥
+    - road-id: 4
+      section-id: 4-2
+      road-name: 九盛大道一段-洪州大桥
+      mileage-count: 8691
+      road-section-describe: 周边从洪雅北进城方向
+      longitude: 103.359784
+      latitude: 29.884817
+      begin-point-name: 九盛大道一段-洪州大桥
+      end-point-name: 止戈枢纽
+    - road-id: 5
+      section-id: 5-1
+      road-name: 洪瓦路
+      mileage-count: 7816
+      road-section-describe: 出柳江古镇到瓦屋山镇
+      longitude: 103.180043
+      latitude: 29.65613
+      begin-point-name: 洪瓦路峨洪路口
+      end-point-name: 洪洞坪
+    - road-id: 5
+      section-id: 5-2
+      road-name: 洪瓦路
+      mileage-count: 3977
+      road-section-describe: 出柳江古镇到瓦屋山镇
+      longitude: 103.150485
+      latitude: 29.668402
+      begin-point-name: 洪洞坪
+      end-point-name: 新店子
+    - road-id: 5
+      section-id: 5-3
+      road-name: 洪瓦路
+      mileage-count: 4521
+      road-section-describe: 出柳江古镇到瓦屋山镇
+      longitude: 103.113829
+      latitude: 29.657836
+      begin-point-name: 新店子
+      end-point-name: 瓦屋山镇中学中心校
+    - road-id: 6
+      section-id: 6-1
+      road-name: 成渝环线高速
+      mileage-count: 4870
+      road-section-describe: 进城方向干道：三宝镇政府至止戈枢纽
+      longitude: 103.424047
+      latitude: 29.834728
+      begin-point-name: 三宝镇政府
+      end-point-name: 魏河村
+    - road-id: 6
+      section-id: 6-2
+      road-name: 成渝环线高速
+      mileage-count: 5456
+      road-section-describe: 进城方向干道：三宝镇政府至止戈枢纽
+      longitude: 103.385282
+      latitude: 29.865224
+      begin-point-name: 魏河村
+      end-point-name: 洪雅收费站
+    - road-id: 6
+      section-id: 6-3
+      road-name: 成渝环线高速
+      mileage-count: 4798
+      road-section-describe: 进城方向干道：三宝镇政府至止戈枢纽
+      longitude: 103.338449
+      latitude: 29.88714
+      begin-point-name: 洪雅收费站
+      end-point-name: 止戈枢纽
+    - road-id: 7
+      section-id: 7-1
+      road-name: 成渝环线高速
+      mileage-count: 7580
+      road-section-describe: 进城方向干道：雅安经槽渔滩至东岳收费站
+      longitude: 103.19738
+      latitude: 29.917149
+      begin-point-name: 成渝高速雅安入城
+      end-point-name: 槽渔滩景区交叉口
+    - road-id: 7
+      section-id: 7-2
+      road-name: 成渝环线高速
+      mileage-count: 6681
+      road-section-describe: 进城方向干道：雅安经槽渔滩至东岳收费站
+      longitude: 103.236627
+      latitude: 29.855996
+      begin-point-name: 槽渔滩景区交叉口
+      end-point-name: 东岳收费站
+    - road-id: 8
+      section-id: 8-1
+      road-name: 广洪高速
+      mileage-count: 8210
+      road-section-describe: 进城方向干道：丹棱仁美收费站-止戈枢纽
+      longitude: 103.395366
+      latitude: 29.946479
+      begin-point-name: 丹棱仁美收费站
+      end-point-name: 洪雅北收费站
+    - road-id: 8
+      section-id: 8-2
+      road-name: 广洪高速
+      mileage-count: 5722
+      road-section-describe: 进城方向干道：丹棱仁美收费站-止戈枢纽
+      longitude: 103.334959
+      latitude: 29.907533
+      begin-point-name: 洪雅北收费站
+      end-point-name: 止戈枢纽
+    - road-id: 9
+      section-id: 9-1
+      road-name: 玉屏山
+      mileage-count: 9188
+      road-section-describe: 玉屏山上山主干道
+      longitude: 103.203635
+      latitude: 29.726991
+      begin-point-name: 柳江古镇岔路口
+      end-point-name: 玉屏山梯田观景台
+    - road-id: 9
+      section-id: 9-2
+      road-name: 玉屏山
+      mileage-count: 3969
+      road-section-describe: 玉屏山上山主干道
+      longitude: 103.196314
+      latitude: 29.757555
+      begin-point-name: 玉屏山梯田观景台
+      end-point-name: 玉屏山游客中心
+    - road-id: 10
+      section-id: 10-1
+      road-name: G351国道
+      mileage-count: 12764
+      road-section-describe: 丹棱分路进城方向
+      longitude: 103.467948
+      latitude: 29.99141
+      begin-point-name: G351国道路口
+      end-point-name: 丹棱仁美收费站
+    - road-id: 11
+      section-id: 11-1
+      road-name: 洪瓦路
+      mileage-count: 2685
+      road-section-describe: 从瓦屋山镇到雅女湖
+      longitude: 103.086466
+      latitude: 29.640848
+      begin-point-name: 吴庄中学
+      end-point-name: 瓦屋山生态老腊肉养殖基地
+    - road-id: 11
+      section-id: 11-2
+      road-name: 洪瓦路
+      mileage-count: 6294
+      road-section-describe: 从瓦屋山镇到雅女湖
+      longitude: 103.058302
+      latitude: 29.635607
+      begin-point-name: 瓦屋山生态老腊肉养殖基地
+      end-point-name: 瓦屋山度假酒店
+    - road-id: 11
+      section-id: 11-3
+      road-name: 洪瓦路
+      mileage-count: 3490
+      road-section-describe: 从瓦屋山镇到雅女湖
+      longitude: 103.043813
+      latitude: 29.669474
+      begin-point-name: 瓦屋山度假酒店
+      end-point-name: 大坝左岸隧道
+    - road-id: 12
+      section-id: 12-1
+      road-name: 东岳至花溪大桥
+      mileage-count: 1037
+      road-section-describe: 从东岳镇到柳江古镇
+      longitude: 103.255879
+      latitude: 29.832486
+      begin-point-name: 柳新渠管理处
+      end-point-name: 金凤凰山庄
+    - road-id: 12
+      section-id: 12-2
+      road-name: 东岳至花溪大桥
+      mileage-count: 8858
+      road-section-describe: 从东岳镇到柳江古镇
+      longitude: 103.23882
+      latitude: 29.799328
+      begin-point-name: 金凤凰山庄
+      end-point-name: 花溪镇政府
+    - road-id: 12
+      section-id: 12-3
+      road-name: 东岳至花溪大桥
+      mileage-count: 2427
+      road-section-describe: 从东岳镇到柳江古镇
+      longitude: 103.240251
+      latitude: 29.745705
+      begin-point-name: 花溪镇政府
+      end-point-name: 花溪大桥
+    - road-id: 13
+      section-id: 13-1
+      road-name: 雅赵路
+      mileage-count: 7351
+      road-section-describe: 从雅安到雅女湖
+      longitude: 103.019496
+      latitude: 29.725937
+      begin-point-name: 雅赵路入县
+      end-point-name: 白岩圷
+    - road-id: 13
+      section-id: 13-2
+      road-name: 雅赵路
+      mileage-count: 4798
+      road-section-describe: 从雅安到雅女湖
+      longitude: 103.054284
+      latitude: 29.691428
+      begin-point-name: 白岩圷
+      end-point-name: 洪瓦路口
+    - road-id: 14
+      section-id: 14-1
+      road-name: 洪瓦路
+      mileage-count: 3795
+      road-section-describe: 进瓦屋山主干道
+      longitude: 103.037775
+      latitude: 29.693996
+      begin-point-name: 大坝左岸隧道
+      end-point-name: 邓湾
+    - road-id: 14
+      section-id: 14-2
+      road-name: 洪瓦路
+      mileage-count: 4406
+      road-section-describe: 进瓦屋山主干道
+      longitude: 103.021311
+      latitude: 29.687787
+      begin-point-name: 邓湾
+      end-point-name: 新寺村
+    - road-id: 14
+      section-id: 14-3
+      road-name: 洪瓦路
+      mileage-count: 3498
+      road-section-describe: 进瓦屋山主干道
+      longitude: 103.012139
+      latitude: 29.690249
+      begin-point-name: 新寺村
+      end-point-name: 瓦屋山
+    - road-id: 15
+      section-id: 15-1
+      road-name: 洪瓦路
+      mileage-count: 4692
+      road-section-describe: 出柳江古镇主干道
+      longitude: 103.238422
+      latitude: 29.70303
+      begin-point-name: 大睡观音庙
+      end-point-name: 水子坪
+    - road-id: 15
+      section-id: 15-2
+      road-name: 洪瓦路
+      mileage-count: 3781
+      road-section-describe: 出柳江古镇主干道
+      longitude: 103.223383
+      latitude: 29.675771
+      begin-point-name: 水子坪
+      end-point-name: 叶家湾
+    - road-id: 15
+      section-id: 15-3
+      road-name: 洪瓦路
+      mileage-count: 3042
+      road-section-describe: 出柳江古镇主干道
+      longitude: 103.197024
+      latitude: 29.659836
+      begin-point-name: 叶家湾
+      end-point-name: 峨洪路口
+    - road-id: 16
+      section-id: 16-1
+      road-name: 广洪高速
+      mileage-count: 11182
+      road-section-describe: 周边从洪雅北进城方向
+      longitude: 103.487113
+      latitude: 29.968065
+      begin-point-name: 丹棱收费站
+      end-point-name: 丹棱仁美收费站
+    - road-id: 17
+      section-id: 17-1
+      road-name: 成渝环线高速
+      mileage-count: 5673
+      road-section-describe: 成渝环线主干道：从止戈枢纽-东岳收费站
+      longitude: 103.317678
+      latitude: 29.870606
+      begin-point-name: 止戈枢纽
+      end-point-name: 花溪口大桥岔路口
+    - road-id: 17
+      section-id: 17-2
+      road-name: 成渝环线高速
+      mileage-count: 4527
+      road-section-describe: 成渝环线主干道：从止戈枢纽-东岳收费站
+      longitude: 103.278601
+      latitude: 29.850243
+      begin-point-name: 花溪口大桥岔路口
+      end-point-name: 东岳收费站
+    - road-id: 18
+      section-id: 18-1
+      road-name: 峨洪路
+      mileage-count: 4322
+      road-section-describe: 七里坪主干道
+      longitude: 103.231041
+      latitude: 29.601193
+      begin-point-name: 高庙镇初级中学校
+      end-point-name: 七里沟
+    - road-id: 18
+      section-id: 18-2
+      road-name: 峨洪路
+      mileage-count: 3744
+      road-section-describe: 七里坪主干道
+      longitude: 103.243984
+      latitude: 29.595779
+      begin-point-name: 七里沟
+      end-point-name: 云廊组团
+    - road-id: 18
+      section-id: 18-3
+      road-name: 峨洪路
+      mileage-count: 1778
+      road-section-describe: 七里坪主干道
+      longitude: 103.25007
+      latitude: 29.583939
+      begin-point-name: 云廊组团
+      end-point-name: 峨眉半山七里坪
+    - road-id: 19
+      section-id: 19-1
+      road-name: 峨洪路
+      mileage-count: 3971
+      road-section-describe: 峨洪路从高庙镇政府至赵河乡中心小学校
+      longitude: 103.215593
+      latitude: 29.622599
+      begin-point-name: 高庙镇初级中学校
+      end-point-name: 三星村
+    - road-id: 19
+      section-id: 19-2
+      road-name: 峨洪路
+      mileage-count: 5224
+      road-section-describe: 峨洪路从高庙镇政府至赵河乡中心小学校
+      longitude: 103.204109
+      latitude: 29.653899
+      begin-point-name: 三星村
+      end-point-name: 赵河乡中心小学校
+    - road-id: 20
+      section-id: 20-1
+      road-name: 洪瓦路
+      mileage-count: 2670
+      road-section-describe: 从大峨眉西环线路口和洪瓦分路口到东岳镇
+      longitude: 103.300336
+      latitude: 29.867528
+      begin-point-name: 大峨眉国际旅游西环线岔口
+      end-point-name: 花溪口大桥
+    - road-id: 20
+      section-id: 20-2
+      road-name: 洪瓦路
+      mileage-count: 2432
+      road-section-describe: 从大峨眉西环线路口和洪瓦分路口到东岳镇
+      longitude: 103.299537
+      latitude: 29.851334
+      begin-point-name: 花溪口大桥
+      end-point-name: 瓦屋山服务区后
+    - road-id: 20
+      section-id: 20-3
+      road-name: 洪瓦路
+      mileage-count: 3139
+      road-section-describe: 从大峨眉西环线路口和洪瓦分路口到东岳镇
+      longitude: 103.263102
+      latitude: 29.844231
+      begin-point-name: 瓦屋山服务区后
+      end-point-name: 雅东路口
+    - road-id: 21
+      section-id: 21-1
+      road-name: 丹棱大道
+      mileage-count: 7415
+      road-section-describe: 周边主干道：丹棱大道
+      longitude: 103.542013
+      latitude: 29.993407
+      begin-point-name: G351国道
+      end-point-name: 丹棱收费站
+    - road-id: 22
+      section-id: 22-1
+      road-name: 大峨眉国际旅游西环线
+      mileage-count: 4788
+      road-section-describe: 大峨眉国际旅游西环线起始段
+      longitude: 103.324189
+      latitude: 29.89478
+      begin-point-name: 瓦屋山大道
+      end-point-name: 大峨眉国际旅游西环线
+    - road-id: 23
+      section-id: 23-1
+      road-name: 玉屏北街
+      mileage-count: 1725
+      road-section-describe: 柳江古镇景区主干道
+      longitude: 103.239254
+      latitude: 29.73724
+      begin-point-name: 花溪大桥口
+      end-point-name: 柳江古镇旅游景区
+    - road-id: 23
+      section-id: 23-2
+      road-name: 玉屏北街
+      mileage-count: 1160
+      road-section-describe: 柳江古镇景区主干道
+      longitude: 103.23768
+      latitude: 29.724676
+      begin-point-name: 柳江古镇旅游景区
+      end-point-name: 李湾口大桥
+    - road-id: 24
+      section-id: 24-1
+      road-name: 洪瓦路
+      mileage-count: 1997
+      road-section-describe: 下成渝高速，到东岳镇区域
+      longitude: 103.250486
+      latitude: 29.84084
+      begin-point-name: 东岳收费站
+      end-point-name: 雅东路口
+    - road-id: 25
+      section-id: 25-1
+      road-name: 柳江古镇-玉屏山上山路口
+      mileage-count: 658
+      road-section-describe: 出柳江古镇后上玉屏上主干道路口
+      longitude: 103.230243
+      latitude: 29.715167
+      begin-point-name: 李湾口大桥口
+      end-point-name: 玉屏山上山路口
+    - road-id: 26
+      section-id: 26-1
+      road-name: 西环线牌坊坝路口
+      mileage-count: 1303
+      road-section-describe: 从天宫路口到牌坊坝,北向南
+      longitude: 103.283137
+      latitude: 29.798565
+      begin-point-name: 天宫路口
+      end-point-name: 牌坊坝
+    - road-id: 27
+      section-id: 27-1
+      road-name: G351国道王沟路段
+      mileage-count: 779
+      road-section-describe: 从G351国道丹棱交界到G351国道王沟路口,北向南
+      longitude: 103.428886
+      latitude: 29.946218
+      begin-point-name: G351国道丹棱交界
+      end-point-name: G351国道王沟路口
+
+weather:
+  custom:
+    # 玉屏山气温，在柳江古镇的基础上加减值,只能是整数
+    yuping-mountain-temperature-offset: ${YUPING_MOUNTAIN_TEMPERATURE_OFFSET:-2}
+    # 玉屏山pm2.5，在柳江古镇的基础上的比例
+    yuping-mountain-pm25-ratio: ${YUPING_MOUNTAIN_PM25_RATIO:0.9}

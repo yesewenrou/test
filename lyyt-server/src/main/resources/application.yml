@@ -1,0 +1,107 @@
+server:
+  port: ${SERVER_PORT:30250}
+
+spring:
+  application:
+    name: hy-lyyt-server
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  data:
+    elasticsearch:
+      #集群名称
+      cluster-name: ${ES_CLUSTER_NAME:es6.7.2}
+      #连接地址
+      cluster-nodes: ${ES_CLUSTER_NODES:192.168.10.104:9300}
+  elasticsearch:
+    rest:
+      uris: ${ES_HEALTH_ADDRESS:http://192.168.10.104:9200}
+  redis:
+    host: ${REDIS_HOST:192.168.10.101}
+    port: ${REDIS_PORT:6379}
+    password: ${REDIS_PWD:test123}
+    database: 0
+    timeout: 2000
+    lettuce:
+      pool:
+        #lettuce连接池最大连接数(使用负值表示没有限制) 默认为8
+        max-active: 4
+        # 连接池最大阻塞等待时间(使用负值表示没有限制) 默认为-1
+        max-wait: -1
+        #连接池中的最大空闲连接 默认为8
+        max-idle: 4
+        # 连接池中的最小空闲连接 默认为 0
+        min-idle: 0
+  kafka:
+    bootstrap-servers: ${KAFKA_ADDRESS:192.168.10.100:9092,192.168.10.101:9092,192.168.10.102:9092}
+    consumer:
+      enable-auto-commit: true
+      group-id: ${KAFKA_GROUP_ID:lyyt-dev}
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+sso:
+  service:
+    #单点登录平台的服务器地址和端口
+    ssoServerAddress: ${SSO_ADDRESS:http://test.hydd.hongya.com}
+    #自身的模块code
+    defaultMoudle: LYYT
+
+# 自定义配置项
+hy:
+  #数据字典
+  lydd:
+    data-dictionary:
+      url: ${LYDD_ADDRESS:http://192.168.10.25:8804/lydd}
+  #新闻模块
+  news:
+    url: ${NEWS_ADDRESS:http://122.112.212.236:8080}
+    forward-url: ${FORWARD_URL:http://hyweb.hitchuangxiang.com/infoActivity/news/}
+  # 旅游云图
+  lyyt:
+    # 游客预测配置
+    tourist-predicition:
+      # 因子权重配置
+      factor-weights:
+        # 昨日游客数
+        YESTERDAY: 0.1
+        # 上周同期游客数
+        LAST_WEEK_SAME_PERIOD: 0.3
+        # 上上周同期游客数
+        TWO_WEEKS_AGO_SAME_PERIOD: 0.2
+        # 上月同期游客数
+        LAST_MONTH_SAME_PERIOD: 0.1
+        # 上周平均游客数
+        LAST_WEEK_AVG: 0.1
+        # 上月平均游客数
+        LAST_MONTH_AVG: 0.1
+        # 本月游客平均数
+        THIS_MONTH_AVG: 0.1
+      # 是否启用天气系数
+      use-weather-factor: true
+      # 天气系数配置
+      weather-coefficients:
+        # 好天气
+        GOOD: 1
+        # 坏天气
+        BAD: 0.6
+  #今日累计权重，暂定为2
+  today-weight: 2
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - prometheus
+  endpoint:
+    prometheus:
+      enabled: true
+    metrics:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true

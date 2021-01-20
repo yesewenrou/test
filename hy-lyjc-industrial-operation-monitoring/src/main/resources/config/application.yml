@@ -1,0 +1,185 @@
+server:
+  port: 30800
+
+spring:
+  application:
+    name: hy-lyjc-industrial-operation-monitoring
+
+  #数据库连接池
+  datasource:
+    druid:
+      name: hy-lyjc-industrial-operation-monitoring
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://${MYSQL_ADDRESS:192.168.10.215:3306}/hy_lyjc_industrial_operation_monitoring?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+      username: ${MYSQL_USERNAME:root}
+      password: ${MYSQL_PASSWORD:yg123456}
+      initial-size: 1
+      max-active: 20
+      min-idle: 1
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      filter:
+        stat:
+          enabled: true
+
+  # ES配置
+  data:
+    elasticsearch:
+      cluster-name: ${ES_CLUSTER_NAME:es6.7.2}
+      cluster-nodes: ${ES_CLUSTER_NODES:192.168.10.104:9300}
+  elasticsearch:
+    rest:
+      uris: ${ES_HEALTH_ADDRESS:http://192.168.10.104:9200}
+
+  # KAFKA配置
+  kafka:
+    bootstrap-servers: ${KAFKA_ADDRESS:192.168.10.100:9092,192.168.10.101:9092,192.168.10.102:9092}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      group-id: ${KAFKA_GROUP_ID:lyjc-dev}
+
+  # json序列化/反序列化
+  jackson:
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: true
+
+  # redis 缓存
+  cache:
+    type: redis
+  redis:
+    host: ${REDIS_HOST:192.168.10.215}
+    port: ${REDIS_PORT:6379}
+    password: ${REDIS_PWD:yg123456}
+
+# mybatis-plus配置
+mybatis-plus:
+  type-enums-package: net.cdsunrise.hy.lyjc.industrialoperationmonitoring.entity.typeenum
+
+#单点登录配置
+sso:
+  service:
+    #单点登录平台的服务器地址和端口
+    ssoServerAddress: ${SSO_ADDRESS:http://test.hydd.hongya.com}
+    #自身的模块code
+    defaultMoudle: LYJC
+
+# 自定义配置项
+hy:
+  #数据字典
+  lydd:
+    data-dictionary:
+      url: ${LYDD_ADDRESS:http://lyjc.hongya.cdsunrise.net:28666/lydd}
+
+  # 旅游商户
+  lysh:
+    merchant-manage:
+      url: ${LYSH_ADDRESS:http://192.168.10.25:8804/lysh}
+
+  # 消息系统
+  message:
+    center:
+      url: ${MESSAGE_ADDRESS:http://192.168.10.25:8804/lymsg}
+
+  # 停车系统
+  lytc:
+    parking-log-manage:
+      url: ${LYTC_ADDRESS:http://192.168.10.25:8804/lytc}
+
+  # 大数据中心
+  lydsj:
+    lydsj-data-center:
+      url: ${LYDSJZX_ADDRESS:http://192.168.10.89:28404}
+
+  # 信息发布
+  lyxxfb:
+    guidance:
+      url: ${LYXXFB_ADDRESS:http://test.lyxxfb.hongya.com/lyxxfb}
+
+  # 旅游交通管理（注意，这里和lyjt.server.lyjtServerAddress是同一个地址）
+  lyjtgl:
+    url: ${LYJT_ADDRESS:http://192.168.10.198:30050}
+
+  #新闻模块
+  news:
+    url: ${NEWS_ADDRESS:http://122.112.212.236:8080}
+    forward-url: ${FORWARD_URL:http://hyweb.hitchuangxiang.com/infoActivity/news/}
+
+  # 营销系统
+  lyyx:
+    precision-marketing:
+      url: ${LYYX_ADDRESS:http://192.168.10.39:28702}
+  # 运行监测
+  lyjc:
+    # 门票预测配置
+    ticket-predicate:
+      weight-config:
+        # 昨日门票数 权重: 0.1
+        YESTERDAY_TICKETS: 0.1
+        # 上周同期门票数 权重: 0.3
+        LAST_WEEK_SAME_DAY_TICKETS: 0.3
+        # 上上周同期门票数据 权重: 0.2
+        LAST_TWO_WEEK_SAME_DAY_TICKETS: 0.2
+        # 上月同期门票数 权重: 0.1
+        LAST_MONTH_SAME_DAY_TICKETS: 0.1
+        # 上周平均门票数据 权重: 0.1
+        LAST_WEEK_AVG_TICKETS: 0.1
+        # 上月平局门票数据 权重: 0.1
+        LAST_MONTH_AVG_TICKETS: 0.1
+        # 本月平均门票数据 权重 0.1
+        CURRENT_MONTH_AVG_TICKETS: 0.1
+
+#交通服务配置
+lyjt:
+  service:
+    lyjtServerAddress: ${LYJT_ADDRESS:http://192.168.10.232:30050}
+
+#眉山移动
+msm:
+  service:
+    address: ${MSM_ADDRESS:http://218.205.252.11:8183}
+
+#日志记录配置
+record:
+  service:
+    #自身的模块code
+    module: LYJC
+    module-enum: net.cdsunrise.hy.lyjc.industrialoperationmonitoring.enums.ModelEnum
+    operation-enum: net.cdsunrise.hy.lyjc.industrialoperationmonitoring.enums.OperationEnum
+
+#日志级别
+logging:
+  level:
+    net.cdsunrise: ${LOG_LEVEL:DEBUG}
+
+#监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - prometheus
+  endpoint:
+    prometheus:
+      enabled: true
+    metrics:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
+chart:
+  phantomjs:
+    path: ${JS_PATH:D:\temp}
+    temp: ${WORK_PATH:D:\temp}

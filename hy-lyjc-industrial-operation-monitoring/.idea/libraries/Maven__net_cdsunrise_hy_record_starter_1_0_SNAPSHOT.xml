@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.cdsunrise.hy:record-starter:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/cdsunrise/hy/record-starter/1.0-SNAPSHOT/record-starter-1.0-20190917.055716-11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/cdsunrise/hy/record-starter/1.0-SNAPSHOT/record-starter-1.0-20190917.055716-11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/cdsunrise/hy/record-starter/1.0-SNAPSHOT/record-starter-1.0-20190917.055716-11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
